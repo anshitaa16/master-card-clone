@@ -1,0 +1,844 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #323231;
+
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1 #overlay{
+    width: 100%;
+    height: 100%;background-color: transparent;
+    position: absolute;
+    z-index: 999;
+}
+#overlay #nav{
+    height: 15%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease 0.9s;
+}
+#nav:hover{
+    background-color: black;
+}
+#nav #cnt1{
+    height: 100%;
+    width: 25%;
+    /* background-color: bisque; */
+    background-image: url(https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/logos/mc-logo-52.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65px;
+}
+#nav #cnt2{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    /* background-color: #fff; */
+    color: white;
+}
+#cnt2 select{
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    /* padding-left: 35%; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    transition: all ease;
+}
+#cnt2 #c{
+    padding-top: 10px;
+}
+#a:hover{
+    text-decoration: underline;
+    
+}
+#b:hover{
+    text-decoration: underline;
+    
+}
+#c:hover{
+    text-decoration: underline;
+}
+#nav2{
+    height: 43%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#nav2 h6{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 10%;
+    padding-left: 15%;
+    color: white;
+}
+#nav2 p{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    padding-top: 2%;
+    padding-left: 15%;
+    letter-spacing: 3px;
+    color: white;
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/homepage/Home/homepage_banner2_1300x650.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#page2 #overlayy{
+    width: 100%;
+    height: 100%;background-color: transparent;
+    position: absolute;
+    z-index: 999;
+
+}
+#overlayy #box{
+    height: 45%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#box p{
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+#box a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    color: black;
+    text-decoration: none;
+    transition: all ease;
+}
+#box i{
+    color: #D99573;
+    cursor: pointer;
+}
+
+#box a:hover{
+    color: #CF4500;
+    text-decoration: underline 1.5px;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+#page3 #box1{
+    height: 100%;
+    width: 50%;
+    background-color: #CF4500;
+    background-image: url(https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/homepage/Home/woman-dressing-shop-window-720x810.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#page3 #box2{
+    height: 100%;
+    width: 50%;
+    /* background-color: #CF4500; */
+}
+#page3 #box2 #content{
+    height: 40%;
+    width: 70%;
+    /* background-color: aliceblue; */
+    margin-top: 20%;
+    margin-left: 15%;
+}
+#content h6{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    font-size: 100;
+    letter-spacing: 1px;
+}
+#content p{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    line-height: 50px;
+}
+#content p1{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 100;
+    padding-top: 15px;
+}
+#content button{
+    padding: 8px 24px;
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #D76228;
+    border: 2.5px solid #D76228;
+    transition: all ease 0.3s;
+}
+#content button:hover{
+    box-shadow: 1px 1px 5px #852D01;
+    /* transition: all ease-in-out; */
+    scale: 1.01;
+}
+#page4{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/homepage/Home/mastercard-cards-1300x650.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#page4 #box{
+    height: 50%;
+    width: 50%;
+    /* background-color: #fff; */
+    position: absolute;
+    z-index: 999;
+    margin-top: 12%;
+    margin-left: 8%;
+    color: white;
+}
+#page4 #box h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    letter-spacing: 3px;
+}
+#page4 #box button{
+    margin-top: 25px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: box-shadow 0.3s ease;
+}
+#page4 #box button:hover{
+    box-shadow: 0px 1px 5px white;
+    scale: 1.05;
+}
+#page5{
+    height: 120%;
+    width: 100%;
+    background-color: #323231;
+}
+.cont{
+    height: 40%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#a{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#b{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.bx{
+    height: 100%;
+    width: 40%;
+    /* background-color: #D99573; */
+}
+#x{
+   overflow: hidden;
+}
+#x img{
+    width: 100%;
+    height: 100%;
+    transition: scale 0.9s;
+}
+#x:hover img{
+    scale: 1.1;
+
+}
+#y h6{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 13%;
+    font-size: 100;
+    letter-spacing: 1px;
+    color: white;
+}
+#y p{
+    font-size: 35px;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-weight: 100;
+    line-height: 38px;
+    @import url(https://db.onlinewebfonts.com/c/d930760769788d4aaa8f4b153aed37ba?family=MarkForMC+Nrw);
+    font-family: "MarkForMC Nrw";
+    color: white;
+    text-decoration: none;
+}
+#y a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    color: black;
+    text-decoration: none;
+    transition: all ease;
+    color: white;
+}
+#y i{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+#y a:hover{
+    color: #ce6028;
+    /* text-decoration: underline 1.5px; */
+}
+.bxx{
+    height: 100%;
+    width: 40%;
+    /* background-color: #D99573; */
+}
+#n{
+    overflow: hidden;
+}
+#n img{
+    width: 100%;
+    height: 100%;
+    transition: scale 0.9s;
+}
+#n:hover img{
+    scale: 1.1;
+}
+
+#m h6{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 13%;
+    font-size: 100;
+    letter-spacing: 1px;
+    color: white;
+}
+#m p{
+    font-size: 35px;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-weight: 100;
+    line-height: 38px;
+    @import url(https://db.onlinewebfonts.com/c/d930760769788d4aaa8f4b153aed37ba?family=MarkForMC+Nrw);
+    font-family: "MarkForMC Nrw";
+    color: white;
+    text-decoration: none;
+}
+#m a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    color: black;
+    text-decoration: none;
+    transition: all ease;
+    color: white;
+}
+#m i{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+#m a:hover{
+    color: #ce6028;
+    text-decoration: underline 1.5px;
+}
+#page6{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+#page6 #box1{
+    height: 100%;
+    width: 50%;
+    background-color: #CF4500;
+    background-image: url(https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/homepage/Home/hip-young-man-holding-phone-720x810.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#page6 #box2{
+    height: 100%;
+    width: 50%;
+    /* background-color: #CF4500; */
+}
+#page6 #box2 #conten{
+    height: 40%;
+    width: 70%;
+    /* background-color: aliceblue; */
+    margin-top: 20%;
+    margin-left: 15%;
+}
+#conten h6{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    font-size: 100;
+    letter-spacing: 1px;
+    color: rgb(69, 67, 67);
+}
+#conten p{
+    font-size: 40px;
+    @import url(https://db.onlinewebfonts.com/c/d930760769788d4aaa8f4b153aed37ba?family=MarkForMC+Nrw);
+    font-family: "MarkForMC Nrw";
+    font-weight: 100;
+    line-height: 50px;
+}
+#conten p1{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 100;
+    padding-top: 15px;
+}
+#conten button{
+    padding: 8px 24px;
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #D76228;
+    border: 2.5px solid #D76228;
+    transition: all ease 0.3s;
+}
+#conten button:hover{
+    box-shadow: 1px 1px 5px #852D01;
+    /* transition: all ease-in-out; */
+    scale: 1.01;
+}
+#page7{
+    height: 100%;
+    width: 100%;
+    background-color: #F8F7F5;
+}
+#page7 #nav{
+    width: 100%;
+    height: 10%;
+    /* background-color: #852D01; */
+    /* margin-top: 5%; */
+}
+#page7 #nav1{
+    width: 100%;
+    height: 10%;
+    /* background-color: #852D01; */
+    /* margin-top: 5%; */
+}
+#page7 #nav1 p11{
+    color: #9A3A0A;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding-left: 6%;
+}
+#page7 #center{
+    height: 80%;
+    width: 100%;
+    /* background-color: #323231; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#center .text{
+    height: 80%;
+    width: 28%;
+    background-color: #F8F7F5;
+}
+.text1 #bxa1{
+    width: 100%;
+    height: 50%;
+    background-color: #D76228;
+    background-image: url(https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/homepage/Home/food-truck-small-business-owners-1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text1 #bxa2 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(63, 63, 63);
+}
+.text1 #bxa2 p{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.text1 #bxa2 a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    color: black;
+    text-decoration: none;
+    transition: all ease;
+    /* color: white; */
+}
+.text1 #bxa2 i{
+    color: #D76228;
+    cursor: pointer;
+    font-size: 20px;
+}
+.text1 #bxa2 a:hover{
+    color: #ce6028;
+    text-decoration: underline 2px;
+}
+.text2 #bxa1{
+    width: 100%;
+    height: 50%;
+    background-color: #D76228;
+    background-image: url(https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/homepage/Home/female-scientist-writing-notes-1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text2 #bxa2 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(63, 63, 63);
+}
+.text2 #bxa2 p{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.text2 #bxa2 a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    color: black;
+    text-decoration: none;
+    transition: all ease;
+    /* color: white; */
+}
+.text2 #bxa2 i{
+    color: #D76228;
+    cursor: pointer;
+    font-size: 20px;
+}
+.text2 #bxa2 a:hover{
+    color: #ce6028;
+    text-decoration: underline 2px;
+}
+.text3 #bxa1{
+    width: 100%;
+    height: 50%;
+    background-color: #D76228;
+    background-image: url(https://www.mastercard.co.in/content/dam/public/mastercardcom/sg/en/homepage/Home/mastercard-colleagues_1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text3 #bxa2 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(63, 63, 63);
+}
+.text3 #bxa2 p{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.text3 #bxa2 a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    color: black;
+    text-decoration: none;
+    transition: all ease;
+    /* color: white; */
+}
+.text3 #bxa2 i{
+    color: #D76228;
+    cursor: pointer;
+    font-size: 20px;
+}
+.text3 #bxa2 a:hover{
+    color: #ce6028;
+    text-decoration: underline 2px;
+}
+#navbar{
+    height: 10%;
+    width: 100%;
+    background-color: #323231;
+}
+#navbar p{
+    font-size: 18px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 25px;
+    padding-left: 6%;
+    word-spacing: 5px;
+}
+#copy{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#copy #cp1{
+    height: 65%;
+    width: 35%;
+    /* background-color: #F8F7F5; */
+    color: white;
+}
+#cp1 img{
+    padding-top: 15%;
+    padding-left: 17%;
+}
+#cp1 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    padding-left: 17%;
+    letter-spacing: 2px;
+}
+#cp1 p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 17%;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#cp1 i{
+    font-size: 20px;
+    font-weight: 100;
+}
+#cp1 p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 17%;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+#cp1 p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 17%;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+#copy #cp2{
+    height: 75%;
+    width: 50%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+}
+#am1{
+    height: 100%;
+    width: 50%;
+    /* background-color: #323231; */
+}
+#am2{
+    height: 100%;
+    width: 50%;
+    /* background-color: #F8F7F5; */
+}
+#am1 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-top: 140px;
+    padding-left: 5%;
+    color: white;
+}
+#am1 p1{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+}
+#am1 p2{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+}
+#am1 p3{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+}
+#am1 p4{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+}
+#am1 p5{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+}
+#am2 p1{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    letter-spacing: 1px;
+
+}
+#am2 p2{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    letter-spacing: 1px;
+
+}
+#am2 p3{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    letter-spacing: 1px;
+}
+#am2 p4{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    letter-spacing: 1px;
+}
+#am2 p5{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    letter-spacing: 1px;
+}
+
+#am2 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-top: 140px;
+    padding-left: 5%;
+    color: white;
+}
+#navv{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#navv #bxx1{
+    height: 100%;
+    width: 50%;
+    /* background-color: #D99573; */
+    display: flex;
+}
+.footer{
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 82px;
+    color: white;
+}
+.cnt{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(23, 76, 58); */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 82px;
+    word-spacing: 10px;
+    color: white;
+}
+
+#navv #bxx2{
+    height: 100%;
+    width: 30%;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.icon1{
+    height: 100%;
+    width: 50%;
+    /* background-color: #D99573; */
+}
+.icon1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 400; */
+    padding-top: 50px;
+    padding-left: 60px;
+    word-spacing: 10px;
+    color: white;
+}
+.icon1 #r{
+    font-size: 25px;
+    font-weight: 100;
+}
+.icon2{
+    height: 100%;
+    width: 50%;
+    /* background-color: #e75d18; */
+}
+.icon2 i{
+    font-size: 30px;
+    color: white;
+    /* padding-left: 20px; */
+    transition: all ease .1s;
+}
+.icon2 i:hover{
+color: #ce6028;
+}
+.icon2 p{
+    padding-top: 50px;
+}
